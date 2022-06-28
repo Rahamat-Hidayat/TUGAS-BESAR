@@ -1,0 +1,65 @@
+.banner{
+    background: url("image/wp2352852-coffee-shop-wallpapers.jpg")
+    no-repeat center center;
+    /* background gambar, rata tengah, dan tidak mengulangi background*/
+    background-size: cover; /* mengatur ukuran background*/
+    padding-top: 20%; /* mengatur batas atas */
+    padding-bottom: 20%; /* mengatur batas bawah */
+    color: #fff; /* mengatur warna pada cover */
+} 
+
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%; /* border bebrbetuk lingkaran */
+    width: 100px; /* lebar */
+    margin: auto; /* jarak */
+    height: 100px; /* tinggi */
+    color: #fff; /* warna icon */
+    background-color: #dc3545; /* warna background */
+    position: relative; /* mengatur posisi relative */
+    top: 45px; /* mengatur batas atas */
+}
+
+.crop-img{
+    object-fit: cover; /* mengatur gambar galeri akan di croping sesuai cover */
+}
+
+.support img{ /* gambar pada support */
+    width: 250px; /* mengatur lebar */
+    border: 5px solid #cccccc; /* mengatur border dan warna pada lingkaran cover */
+}
+
+a.social{ /* mengatur icon pada social */
+    display: inline-block; /* mengatur tampilan */
+    width: 10px; /* mengatur lebar */
+    height: 10px; /* mengatur tinggi */
+    color: #fff; /* mengatur warna icon */
+    border-radius: 50%; /* mengatur jarak radius */
+    background-color: #333; /* mengatur warna background */
+    line-height: 40px; /* mengatur jarak antar elemen */
+}
+
+.line{
+    width: 150px;
+    height: 6px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.garis {
+    width: 150px;
+    height: 6px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.review{
+    background: url("image/coffee-shop.webp")
+    no-repeat center center; /* menambahkan background, mengatur backgroun tidak berulang, dan background ditengah */
+    background-size: cover; /* mengangatur background cover */
+    padding-bottom: 20%; /* jarak bawah */
+    padding-top: 20%; /* jarak atas */
+    color: #fff; /* warna cover putih */
+}
+
+

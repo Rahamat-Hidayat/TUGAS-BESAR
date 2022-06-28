@@ -1,0 +1,18 @@
+html, body{
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 500px;
+    height: 400px;
+    pad: 10px;
+    border-radius: 10px !important;
+    font-family: 'Courier New', Courier, monospace;
+}

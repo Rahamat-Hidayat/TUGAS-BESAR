@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    background-color: #222d32 !important;
+}
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+}
+
+.login-form {
+    width: 400px;
+    height: 800px;
+    pad: 20px;
+    background-color: #222d32 !important;
+    border-radius: 10px !important;
+}
+
+input[type="text"], input[type="radio"], textarea[name="bahan"], textarea[name="cara_pembuatan"], input[type="file"]{ 
+    background: #1a2226;
+    color: #ffff;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+input[type="text"]:focus, input[type="radio"]:focus, textarea[name="bahan"]:focus, textarea[name="cara_pembuatan"]:focus, input[type="file"]:focus{
+    outline: none;
+    border: none;
+    background: #1a2226;
+    color: white;
+     margin: 0;
+}
+
+.card-title {
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.btn {
+    align-items: center;
+    background: orange !important;
+    color: #1a2226 !important;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 10px;
+}
